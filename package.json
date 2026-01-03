@@ -1,18 +1,9 @@
 {
-  "name": "moreira",
+  "name": "roblox-discord-logger",
   "version": "1.0.0",
-  "description": "",
-  "main": "Index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "main": "index.js",
   "dependencies": {
-    "discord.js": "^14.25.1",
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1"
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
   }
 }
