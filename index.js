@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/XXXXX/XXXXX";
+const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1457116012490264626/uKtDP7Ru3QvqrBFz-klP2IFCcHn3LZ2u1PQ8BOLYAO_uHiRBNMLlPLovc-CbNbcgYS9j";
 
 app.post("/log", async (req, res) => {
   try {
@@ -59,3 +59,4 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log("🚀 Backend running on port", PORT);
 });
+
